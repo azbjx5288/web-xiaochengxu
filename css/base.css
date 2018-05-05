@@ -1,0 +1,69 @@
+﻿button{-webkit-tap-highlight-color:transparent;-webkit-tap-highlight-color:transparent;outline:none !important}
+img,p,h1,h2,h3,a,div,span,ul,li{margin:0; padding:0; list-style:none; border:none;}
+body{ font-size:14px; color:#222; line-height:16px; margin:0; padding:0; font-family:"Microsoft YaHei", "微软雅黑", "STHeiti", "WenQuanYi Micro Hei", SimSun, sans-serif}
+a{ color:#515151;}
+a:hover{ color:#FF5104}
+img{ display:block; width:100%;}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */  color: #b1b1b1;}
+::-moz-placeholder { /* Mozilla Firefox 19+ */ color: #b1b1b1;}
+input:-ms-input-placeholder{  color: #b1b1b1;}
+input::-webkit-input-placeholder{ color: #b1b1b1;}
+.has-error .form-control {
+    border-color: #f00;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+}
+.has-error .form-control:active,.has-error .form-control:focus {
+    border-color: #f00;
+    -webkit-box-shadow:  0px 0px 8px rgba(255,0,0,.25);
+    box-shadow:  0px 0px 8px rgba(255,0,0,.25);
+}
+.btn{ border-radius:2px;}
+.icon{ display:inline-block; background:url(../images/portol_index_sprites.png) no-repeat;}
+.header{ width: 100%; height:76px; background: #fff; box-shadow: 0 1px 2px #ccc; position: fixed; top: 0; z-index: 999;}
+.header-nav{ width:1000px; margin:0 auto; height:76px; position:relative; box-sizing:border-box; padding-left:270px;}
+.header-nav .logo-box{ width:86px; height:40px;background: url(../images/logo.png) no-repeat;background-size: 86px 40px; position:absolute; top:18px;
+left:0;cursor:pointer}
+.header-nav .menu-box{padding-top:5px; height: 75px; box-sizing: border-box; position:relative;}
+.header-nav .menu-box .li{ float:left; margin-right:40px; box-sizing:border-box; height:70px}
+.header-nav .menu-box .no-m{ margin:0}
+.header-nav .menu-box .li a{ display:inline-block; height:70px; line-height:70px; padding:0 20px; text-decoration:none; color:#515151; font-size:16px; cursor:pointer}
+.header-nav .menu-box .li a.active{ color:#ff8400;}
+/*.header-nav .menu-box li.active{ border-bottom:4px solid #ff8400;}*/
+/*.nav-active {
+    display: block;
+    width: 72px;
+    height: 2px;
+    position: absolute;
+    left: 270px;
+    bottom: 2px;
+    background-color: #ff8400;
+}
+*/
+.footer { padding: 20px 0 10px;background:#ff8400;}
+.footer .footer-container{ width:1000px; margin:0 auto;}
+.footer .code-box  .tit{ font-size:14px; color:#fff; padding-top:8px;}
+.footer .footer-tip{ font-size:14px; color:#fff; margin-bottom:10px; text-align:center;}
+.footer .footer-tip span{ display:inline-block; padding-right:20px;}
+.code{ display:inline-block; width:128px; height:132px; background:url(../images/index_code_sprites_new.jpg) no-repeat;}
+.code-wx{ background-position:0 0}
+.code-app{ background-position:-129px 0}
+
+.right-fixed-menu{ position:fixed;  width:48px; height:205px; top:55%; right:50px; z-index:999}
+
+.message-tip,.pop_ts{ width:200px; padding:20px; text-align:center; border-radius:10px; line-height:24px; font-size:14px; color:#fff;
+background-color:rgba(0,0,0,.5); position:fixed; top:50%; left:50%; margin-top:-50px; margin-left:-100px;}
+.pop_ts{top:40%}
+
+
+
+
+
+
+
+
+
+
+
+
+

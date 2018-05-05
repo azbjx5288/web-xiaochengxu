@@ -1,0 +1,115 @@
+.container-fluid {
+	/*min-width: 1200px;*/
+	width: 100%;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.nav-wrap {
+	background-color: #fff;
+	height: 118px;
+	line-height: 118px;
+	color: #666;
+	position: fixed;
+	top:0;
+	z-index: 999;
+}
+.nav-container {
+	position: relative;
+	width: 708px;
+	height: 118px;
+}
+.nav {
+	padding: 43px 0;
+}
+
+/*鼠标划过，导航下加横线*/
+.nav li a{
+	display: block;
+	padding:0 26px;
+	height: 32px;
+	line-height: 32px;
+}
+
+.phone {
+	color: #ff6c00;
+}
+.price-container {
+	width: 100%;
+	height: 400px;
+	margin-top: 76px;
+	background: url(../images/price_banner.jpg) #030823 no-repeat center 0;
+}
+/*项目名称*/
+.service-title {
+	color: #2067b6;
+	text-align: center;
+
+	margin: 32px 0 16px 0;
+}
+.title-china {
+	color: #000;
+	text-align: center;
+	margin-bottom: 52px;
+	position: relative;
+}
+
+.title-china:before, .title-china:after {
+	content: "";
+	width: 137px;
+	height: 1px;
+	background-color: #ccc;
+
+	position: absolute;
+	top: 15px;
+}
+.title-china:before {
+	left: 400px;
+}
+.title-china:after {
+	right: 400px;
+}
+
+.service-item {
+	height: 600px;
+}
+
+
+table {
+	background-color: transparent;
+	border-collapse: collapse;
+}
+caption{
+	padding:20px 0;
+	padding-bottom: 8px;
+	color: #777;
+	font-weight: bold;
+	font-size: 24px;
+	text-align: left;
+}
+.table {
+	width: 100%;
+	max-width: 100%;
+}
+.table tr:nth-of-type(2n+1) {
+	background-color: #f9f9f9;
+}
+.table th {
+	color: #333;
+	font-weight: bold;
+}
+.table>thead>tr>th, .table tr>td {
+	border: 2px solid #ddd;
+	padding: 8px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.step-title {
+	width: 200px;
+}
+.step-detail {
+	width: 800px;
+}
