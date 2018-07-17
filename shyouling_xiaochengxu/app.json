@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/product/product",
+    "pages/contact/contact",
+    "pages/details/detail01",
+    "pages/details/detail02",
+    "pages/details/detail03",
+    "pages/details/detail04",
+    "pages/details/detail05",
+    "pages/details/detail06",
+    "pages/details/detail07",
+    "pages/details/detail08"
+  ],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "上海友灵企业登记代理有限公司",
+    "navigationBarBackgroundColor": "#fbfffe",
+    "backgroundColor": "#fbf9fe"
+  },
+  "tabBar": {
+    "color": "#dddddd",
+    "selectedColor": "#459ae9",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "images/index.png",
+      "selectedIconPath": "images/index_selected.png",
+      "text": "公司首页"
+    }, {
+      "pagePath": "pages/product/product",
+      "iconPath": "images/product.png",
+      "selectedIconPath": "images/product_selected.png",
+      "text": "产品服务"
+    }, {
+      "pagePath": "pages/contact/contact",
+      "iconPath": "images/contact.png",
+      "selectedIconPath": "images/contact_selected.png",
+      "text": "联系我们"
+    }]
+  }
+  
+}

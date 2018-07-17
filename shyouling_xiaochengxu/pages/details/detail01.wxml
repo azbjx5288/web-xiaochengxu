@@ -1,0 +1,30 @@
+<view class="container">
+
+   <text class="mainTitle">工商注册的一般流程</text>
+
+  <view class="list">
+    <text class="title">核名</text>
+    <text class="desc">我们需要在工商局网站上填写股东姓名、企业行业特点，等最基本的信息，即可知道自己的公司名称是否</text>
+  </view>
+
+  <view class="list">
+    <text class="title">网申</text>
+    <text class="desc">名称确定后，进一步完善公司注册资本、经营范围、股东信息、注册地址等信息后，即可提交至公司网审核</text>
+  </view>
+
+  <view class="list">
+    <text class="title">递交材料</text>
+    <text class="desc">审核通过后，开始预约提交纸质材料时间，进行最后一次审核       </text>
+  </view>
+
+  <view class="list">
+    <text class="title">取照</text>
+    <text class="desc">小明按照通知书上的取照时间既可以到工商局领取营业执照       </text>
+  </view>
+
+  <view class="list">
+    <text class="title">刻章</text>
+    <text class="desc">找客户在那个公司刻好：企业公章、合同专用章、财务专用章、发票专用章、法人章便可完成       </text>
+  </view>
+
+</view>

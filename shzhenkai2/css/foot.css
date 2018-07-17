@@ -1,0 +1,19 @@
+/*底部css*/
+.foot
+{
+	text-align:center;
+	position:relative;
+	height:120px;
+	background-color:rgba(18,66,135,0.8);
+	border-radius:5px;
+	clear:both;
+	width:1000px;
+	margin:0  auto;
+}
+.foot p
+{
+	position:absolute;
+	bottom:0;
+	left:270px;
+	color:white;
+}

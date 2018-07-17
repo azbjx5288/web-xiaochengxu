@@ -1,0 +1,953 @@
+﻿<!DOCTYPE html>
+<html>
+
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<!--<title>上海友灵企业登记代理有限公司</title>-->
+	<link href="css/index.css" rel="stylesheet" type="text/css"/>
+	
+	<link href="css/top.css" rel="stylesheet" type="text/css"/>
+	<link href="css/foot.css" rel="stylesheet" type="text/css"/>
+	
+	<link href="css/main.css" rel="stylesheet" type="text/css"/>
+	<link href="css/company-info.css" rel="stylesheet" type="text/css"/>
+	<link href="css/business-produce.css" rel="stylesheet" type="text/css"/>
+	<link href="css/success-case.css" rel="stylesheet" type="text/css"/>
+	<link href="css/charge-standard.css" rel="stylesheet" type="text/css"/>
+	<link href="css/proxy.css" rel="stylesheet" type="text/css"/>
+	<link href="css/contact-us.css" rel="stylesheet" type="text/css"/>
+	<link href="css/zaixiankefu.css" rel="stylesheet" type="text/css"/>
+	
+	
+	<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="js/myfocus-2.0.1.min.js" charset="utf-8"></script><!-- 引入myFocus库 -->
+	<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.3&key=您申请的key值"></script> 
+	<script type="text/javascript">
+		myFocus.set({
+			id:'boxID'
+		});
+		
+//甘传谱20161208 添加tab效果添加  开始		
+		$(document).ready(function(){
+			
+			<!--导航切换效果 -->
+			$(".nav li").click(function(){
+				$(".nav li").eq($(this).index()).addClass("cur").siblings().removeClass("cur");
+				$(".tabContant").hide().eq($(this).index()).show();
+				if($(this).index()==3){
+					// $(".success-case-con_right .case-img").addClass("case-img-show");
+					$(".success-case-con_right .case-img").removeClass("case-img-show");
+					$(".success-case-con_right .img_f_s").addClass("case-img-show");
+				}
+			});
+			
+			
+			<!-- 业务流程 a锚点效果 -->
+			$(".business_left li").click(function(){
+				document.location.href="#step-"+$(this).index();
+			});
+				
+		
+			
+			<!-- 成功案例分类切换开始 -->
+			$(".casetype-1").click(function(){
+				$(".success-case-con_right>.case-img").eq(1-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+			});
+			$(".casetype-2").click(function(){
+				$(".success-case-con_right>.case-img").eq(2-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+			});
+			$(".casetype-3").click(function(){
+				$(".success-case-con_right>.case-img").eq(3-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+				$(".success-case-con_right>.case-img").eq(6-1).addClass("case-img-show");
+				$(".success-case-con_right>.case-img").eq(16-1).addClass("case-img-show");
+			});
+			$(".casetype-4").click(function(){
+				$(".success-case-con_right>.case-img").eq(4-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+				$(".success-case-con_right>.case-img").eq(19-1).addClass("case-img-show");
+				$(".success-case-con_right>.case-img").eq(25-1).addClass("case-img-show");
+			});
+			$(".casetype-5").click(function(){
+				$(".success-case-con_right>.case-img").eq(7-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+			});
+			$(".casetype-6").click(function(){
+				$(".success-case-con_right>.case-img").eq(8-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+				$(".success-case-con_right>.case-img").eq(9-1).addClass("case-img-show");
+			});
+			$(".casetype-7").click(function(){
+				$(".success-case-con_right>.case-img").eq(5-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+				$(".success-case-con_right>.case-img").eq(23-1).addClass("case-img-show");
+			});
+			$(".casetype-8").click(function(){
+				$(".success-case-con_right>.case-img").eq(10-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+			});
+			$(".casetype-9").click(function(){
+				$(".success-case-con_right>.case-img").eq(11-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+				$(".success-case-con_right>.case-img").eq(12-1).addClass("case-img-show");
+			});
+			$(".casetype-10").click(function(){
+				$(".success-case-con_right>.case-img").eq(13-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+				$(".success-case-con_right>.case-img").eq(26-1).addClass("case-img-show");
+				$(".success-case-con_right>.case-img").eq(21-1).addClass("case-img-show");
+				$(".success-case-con_right>.case-img").eq(27-1).addClass("case-img-show");
+			});
+			$(".casetype-11").click(function(){
+				$(".success-case-con_right>.case-img").eq(14-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+			});
+			$(".casetype-12").click(function(){
+				$(".success-case-con_right>.case-img").eq(15-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+				$(".success-case-con_right>.case-img").eq(20-1).addClass("case-img-show");
+				$(".success-case-con_right>.case-img").eq(24-1).addClass("case-img-show");
+			});
+			$(".casetype-13").click(function(){
+				$(".success-case-con_right>.case-img").eq(28-1).addClass("case-img-show").siblings().removeClass('case-img-show');
+			});
+			<!-- 成功案例分类切换结束 -->
+		
+		});
+	</script>
+	<script type="text/javascript" src="js/setHomeSetFav.js" charset="utf-8"></script>
+	
+	
+	<script type="text/javascript" src="js/mf-pattern/mF_classicHC.js" ></script>
+	<link rel="stylesheet" href="js/mf-pattern/mF_classicHC.css" type="text/css"/>
+	
+	
+	<!-- jQuery点击左右滚动产品图片开始 -->
+	<script src="js/stepcarousel.js" type="text/javascript"></script>
+	<script type="text/javascript" src="js/index.js"></script>
+	<!-- jQuery点击左右滚动产品图片结束 -->
+
+	</head>
+	<body>
+		<div class="top">
+			<ul class="clear">
+				<li><a href="#">联系我们</a></li>
+				<li><a onclick="AddFavorite(window.location,document.title)" href="javascript:void(0)">加入收藏</a></li>
+				<li><a onclick="SetHome(window.location)" href="javascript:void(0)">设为首页</a></li>
+			</ul>
+		</div><!--top结束-->
+		<div class="wrap">
+			<div class="logo">
+				<div class="logo_left">
+					<img src="images/logo.png" width="230" height="60" alt="注册公司">
+				</div>
+				<div class="logo_right">
+					<img src="images/mobile.png"/>24小时服务热线：<span><a  class="tel" href='tel:+8613321907683'>13321907683</a></span>
+				</div><!-- logo_right结束 -->
+			</div><!-- logo结束 -->
+			
+			<div class="nav">	
+				<ul>
+					<li class=""><a href="#">网站首页</a></li>
+					<li><a href="#">公司简介</a></li>
+					<li><a href="#">业务流程</a></li>
+					<li><a href="#">成功案例</a></li>
+					<li><a href="#">财务代理</a></li>
+					<li><a href="#">收费标准</a></li>
+					<li><a href="#">联系我们</a></li>
+				</ul>
+			</div><!--nav结束 -->
+			
+<!-- 添加tab效果添加  开始-->	
+			<div class="shouye tabContant on">
+				<div class="ad" id="boxID">
+					<div class="loading">
+						<!-- <img src="images/1.jpg" alt="请稍候..." height="254" /> -->
+						正在加载中，请稍候......
+					</div><!--载入画面-->
+					<div class="pic">
+						<ul>
+							<li><img src="images/1.png" alt=""></li>
+							<li><img src="images/02.jpg" alt=""></li>
+							<li><img src="images/03.jpg" alt="" width="1000"></li>
+						</ul><!-- 内容列表 -->
+					</div><!-- 焦点图盒子 -->
+				</div><!-- ad结束 -->
+				<div class="clear title">
+					<h1 class="title_left left" style="width: 634px;">公司简介<span class="mr"><a href="javascript:;">更多&gt;&gt;</a></span></h1>
+					<h1 class="title_right right" style="width: 308px;">新闻中心<!--<span class="mr"><a href="#">更多&gt&gt</a></span>--></h1>
+				</div>
+				<div class="shouye_contant sub_content clear">
+					<div class="shouye_contant_left">
+						
+						<p>上海友灵企业登记代理有限公司成立于2009年，秉成良好的信誉、
+						诚信的理念，专业的服务，建立各种密切的社会关系，从而
+						满足市场需求，创造市场需求。是按照国家工商总局的《企
+						业代理登记机构管理暂行办法》的要求和条件在上海市工商
+						局代理中心备案下注册登记成立。是一家提供"企业登记代理，企业管理咨询，商务信息咨询，投资管理，市场营销策划，展览展示服务，会务服务，财务咨询，家庭服务等全套服务的专业公司，
+						同时我们与许多政府部门及一些信息中心建立了广泛而紧密
+						的合作关系, 为您提供更好的服务, 包括公司注册地点的比
+						较、各个城区优惠政策的比较、公司实际经营地点的选择、
+						公司变更、公司经营问题的解决建议等。</p> 
+						<p>注册公司：低价，快捷，省心，专业，诚信，优质，高效 </P>
+					</div>
+					<div class="shouye_contant_right">
+						
+						<div>
+							<ul>
+								<li class="single"><em>01</em><span>&nbsp;&nbsp;2016-12-17&nbsp;&nbsp;</span><a href="javascript:;">公司设立分公司情况备案</a></li>
+								<li class="double"><em>02</em><span>&nbsp;&nbsp;2016-11-25&nbsp;&nbsp;</span><a href="javascript:;">注册公司常见问题八项</a></li>
+								<li class="single"><em>03</em><span>&nbsp;&nbsp;2016-11-24&nbsp;&nbsp;</span><a href="javascript:;">非公司企业法人章程备案</a></li>
+								<li class="double"><em>04</em><span>&nbsp;&nbsp;2016-10-26&nbsp;&nbsp;</span><a href="javascript:;">注册公司流程</a></li>
+								<li class="single"><em>05</em><span>&nbsp;&nbsp;2016-10-12&nbsp;&nbsp;</span><a href="javascript:;">股份有限公司注册注意事项</a></li>
+								<li class="double"><em>06</em><span>&nbsp;&nbsp;2016-10-12&nbsp;&nbsp;</span><a href="javascript:;">创业公司注册注意事项</a></li>
+							</ul>
+						</div>	
+					</div>
+				</div>
+				<div class="lg_show">
+					<h1>企业案例</h1>
+					<div id="mygallery" class="stepcarousel">
+						<div class="belt" id="displaycssbelt">
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/1.html" target="_blank">
+										<img src="images/kehuanli/1.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/2.html" target="_blank">
+										<img src="images/kehuanli/2.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/3.html" target="_blank">
+										<img src="images/kehuanli/3.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/4.html" target="_blank">
+										<img src="images/kehuanli/4.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/5.html" target="_blank">
+										<img src="images/kehuanli/5.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/6.html" target="_blank">
+										<img src="images/kehuanli/6.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/7.html" target="_blank">
+										<img src="images/kehuanli/7.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/8.html" target="_blank">
+										<img src="images/kehuanli/8.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/9.html" target="_blank">
+										<img src="images/kehuanli/9.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/10.html" target="_blank">
+										<img src="images/kehuanli/10.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/11.html" target="_blank">
+										<img src="images/kehuanli/11.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/12.html" target="_blank">
+										<img src="images/kehuanli/12.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/13.html" target="_blank">
+										<img src="images/kehuanli/13.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/14.html" target="_blank">
+										<img src="images/kehuanli/14.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/15.html" target="_blank">
+										<img src="images/kehuanli/15.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/16.html" target="_blank">
+										<img src="images/kehuanli/16.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/17.html" target="_blank">
+										<img src="images/kehuanli/17.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/18.html" target="_blank">
+										<img src="images/kehuanli/18.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/19.html" target="_blank">
+										<img src="images/kehuanli/19.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/20.html" target="_blank">
+										<img src="images/kehuanli/20.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/21.html" target="_blank">
+										<img src="images/kehuanli/21.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/22.html" target="_blank">
+										<img src="images/kehuanli/22.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/23.html" target="_blank">
+										<img src="images/kehuanli/23.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/24.html" target="_blank">
+										<img src="images/kehuanli/24.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/25.html" target="_blank">
+										<img src="images/kehuanli/25.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/26.html" target="_blank">
+										<img src="images/kehuanli/26.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/27.html" target="_blank">
+										<img src="images/kehuanli/27.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>		
+							<div class="panel">
+								<div class="subfeature">
+									<a href="html/kehuanli/28.html" target="_blank">
+										<img src="images/kehuanli/28.jpg" class="post-image" width="140" height="160"/>
+									</a>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div><!-- lg_show结束 -->
+				
+				<div class="foot">
+						<p>
+						<span style="font-family:arial;">Copyright &copy; </span>
+						2016-2017 上海友灵企业登记代理有限公司
+						All Rights Reserved.   ganchuanpu<br>
+						公司地址：上海市松江区泗泾镇横港路155弄60号602
+						</p>
+				</div>
+			</div>
+<!--甘传谱20161208 添加tab效果添加  结束-->	
+			
+			<div class="company tabContant">
+				<div class="company_ad">
+						<img src="images/company.jpg"/>
+				</div>
+				<div class="title">
+					<h1 class="left title_left2">办公环境</h1>
+					<h1 class="right title_right2">公司简介</h1>
+				</div>
+				<div class="company_con sub_content">
+					
+					<div class="company_con_left">
+						
+							<img src="images/20151030162104312LKH.png" alt="">
+					</div><!-- com_left结束 -->
+					<div class="company_con_right">
+						<p>上海友灵企业登记代理有限公司成立于2009年，秉成良好的信誉、
+						诚信的理念，专业的服务，建立各种密切的社会关系，从而
+						满足市场需求，创造市场需求。是按照国家工商总局的《企
+						业代理登记机构管理暂行办法》的要求和条件在上海市工商
+						局代理中心备案下注册登记成立。是一家提供"企业登记代理，企业管理咨询，商务信息咨询，投资管理，市场营销策划，展览展示服务，会务服务，财务咨询，家庭服务等全套服务的专业公司，
+						同时我们与许多政府部门及一些信息中心建立了广泛而紧密
+						的合作关系, 为您提供更好的服务, 包括公司注册地点的比
+						较、各个城区优惠政策的比较、公司实际经营地点的选择、
+						公司变更、公司经营问题的解决建议等。</p> 
+						<p>注册公司：低价，快捷，省心，专业，诚信，优质，高效 </P>
+					</div>
+				</div>
+				<div class="foot">
+					<p>
+					<span style="font-family:arial;">Copyright &copy; </span>
+					2016-2017 上海友灵企业登记代理有限公司
+					All Rights Reserved.   ganchuanpu<br>
+					公司地址：上海市松江区泗泾镇横港路155弄60号602
+					</p>
+				</div><!-- 公用foot结束 -->
+			</div>
+			</div>
+<!--业务流程 business 开始-->			
+			<div class="business tabContant">
+				<div class="clear title">
+					<h1 class="left title_left2">公司注册流程步骤</h1>
+					<h1 class="right title_right2">公司注册流程详情</h1>
+				</div>
+				<div class="business_con clear sub_content">
+					<div class="business_left">
+						<ul class="clear">
+							<li class="stepname"><span class="step_content">步骤一&nbsp;&nbsp;&nbsp;&nbsp; 企业名称查询</span></li>
+							<li class="stepname"><span class="step_content">步骤二&nbsp;&nbsp;&nbsp;&nbsp;时间根据实际情况而定</span></li>
+							<li class="stepname"><span class="step_content">步骤三&nbsp;&nbsp;&nbsp;&nbsp;申领公司执照</span></li>
+							<li class="stepname"><span class="step_content">步骤四&nbsp;&nbsp;&nbsp;&nbsp;开设企业基本账户</span></li>
+							<li class="stepname"><span class="step_content">步骤五&nbsp;&nbsp;&nbsp;&nbsp;核税种、申领发票购用簿</span></li>
+						</ul>
+					</div>
+					<div class="business_right">
+						<ul>
+							<li>
+								<a id="step-0" class="step_title" name="step-0">步骤一&nbsp;&nbsp;&nbsp;&nbsp; 企业名称查询</a>
+								<div class="step">
+									<p>申办人提供法人和股东的身份证复印件</p>
+									<p>申办人提供公司名称10个及以上, 写明经营范围，出资比例。 例：上海+某某(字数二个、企业名)+贸易(行业名)+有限公司(类型)。
+									备注：行业名要规范</p>
+									<p>填写“企业（字号）名称预先核准申请表”后，由开发区统一提交到上海市工商行政管理局通过其内部网查名，如果没有重名，
+									就可以使用这个名称，并核发一张“企业（字号）名称预先核准通知书”。</p>
+									<p>（注册公司步骤一，即查名，通过上海市工商行管理局进行公司名称注册申请，由工商行政管理局，三名工商查名科注册官进行综合审定，给予注册核准，并发放盖有上海市工商行政管理局名称登记专用章的“企业名称预先核准通知书”）</p>
+									<p>注意：查名目前是注册公司环节中最难的步骤，因为目前上海市存量企业很多，重名现象非常普遍，投资者尽量多想一些名称。建议字号多选择2个字的，相对来说比较容易查询出来。</p>
+								</div>
+							</li>
+							<li>
+								<a id="step-1" class="step_title" name="step-1">步骤二&nbsp;&nbsp;&nbsp;&nbsp;时间根据实际情况而定</a>
+								<div class="step-1" >
+									<p><strong>1、提供证件材料</strong><p>
+									<p>新注册公司申办人提供一个法人和全体股东的身份证各一份以及相应要求的材料。
+									相关行政机关如有新规定，由开发区和申办人按照国家规定相互配合完成。</p>
+									<p><strong>2、报送审批特许项目</strong></p>
+									<p>如有特殊经营许可项目还需相关部门报审盖章，特种行业，许可证办理，根据行业情况及相应部门规定不同，分别分为前置审批和后置审批。（特种许可项目涉及，如：卫防、消防、治安、环保、科委等）</p>
+									<p><strong>3、刻章并编写“公司章程”</strong></p>
+									<p>企业办理工商注册登记过程中，需要使用图章，因此建议由公安部门刻出：公章、财务章、法人章、全体股东章、公司名称章等；“公司章程”的样本可以在工商局网站下载，根据自己拟办公司实际情况修改并由所有股东签名后交送开发区。</p>
+								</div>
+							</li>
+							<li>
+								<a id="step-2" class="step_title" name="step-2">步骤三&nbsp;&nbsp;&nbsp;&nbsp;申领公司执照</a>
+								<div class="step-3">
+									<p>填写公司设立登记的各种表格，包括设立登记申请表、股东（发起人）名单、董事经理监理情
+									况、法人代表登记表、指定代表或委托代理人登记表，由开发区连同连同核名通知、公司章程、
+									房租合同、房产证复印件、验资报告一起交给工商局，工商局经过企业提交材料进行审查，
+									确定符合企业登记申请，经工商行政管理局核定，即发放工商企业营业执照，并公告企业成立。
+									</p>
+								</div>
+							</li>
+							<li>
+								<a id="step-3" class="step_title" id="step-3">步骤四&nbsp;&nbsp;&nbsp;&nbsp;开设企业基本账户</a>
+								<div class="step-4">
+									<p>在开设银行基本帐户时,可根据自己的具体情况选择银行，企业设立基本帐户应提供给银行的材料：</p>
+									<p><strong>1、营业执照原件</strong></p>
+									<p><strong>2、公司公章、法人章、财务专用章</strong></p>
+									<p><strong>3、法人身份证原件，并复印件3张</strong></p>
+									<p><strong>备注：以上材料为通常银行所需，如果开户银行有新要求或新规定企业应以银行为准！
+									</strong><br>（中国人民银行规定，企来必须拥有自已的基本帐户，可以根据企业经营的需求，
+									选择自已最方便的任何银行进行开设基本帐户，具体银行规定请咨询相关开户行）</p>
+								</div>
+							</li>
+							<li>
+								<a id="step-4"  class="step_title" id="step-4">
+									步骤五&nbsp;&nbsp;&nbsp;&nbsp;核税种、 申领发票购用簿、购买发票 
+									开始实际经营
+								</a>
+								<div class="step-5">
+									<p>现在核税种需要法人本人过去拍照</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="foot">
+					<p>
+						<span style="font-family:arial;">Copyright &copy; </span>
+						2016-2017 上海友灵企业登记代理有限公司
+						All Rights Reserved.   ganchuanpu<br>
+						公司地址：上海市松江区泗泾镇横港路155弄60号602						
+					</p>
+				</div><!-- 公用foot结束 -->
+			</div>
+					
+			</div>	
+			</div>	
+			<div class="success-case tabContant">
+				<div class="clear title">
+					<h1 class="left title_left2">注册案例</h1>
+					<h1 class="right title_right2">客户案例</h1>
+				</div>
+				<div class="success-case-con clear sub_content">
+					<div class="success-case-con_left">
+						<ul>
+							<li class="casetype-1">上海机械公司案例</li>
+							<li class="casetype-2">上海雕塑公司案例</li>
+							<li class="casetype-3">上海纺织公司案例</li>
+							<li class="casetype-4">上海金属公司案例</li>
+							<li class="casetype-5">上海物流公司案例</li>
+							<li class="casetype-6">上海技术公司案例</li>
+							<li class="casetype-7">上海商贸公司案例</li>
+							<li class="casetype-8">上海餐饮公司案例</li>
+							<li class="casetype-9">上海汽车公司案例</li>
+							<li class="casetype-10">上海建筑公司案例</li>
+							<li class="casetype-11">上海农业公司案例</li>
+							<li class="casetype-12">上海文化公司案例</li>
+							<li class="casetype-13">上海合资公司案例</li>
+						</ul>
+					</div><!-- service_left结束 -->
+					<div class="success-case-con_right">
+						<div class="case-img img_f_s">
+							<a href="html/kehuanli/1.html" target="_blank"><img src="images/kehuanli/1.jpg"/></a>
+							<a href="html/kehuanli/1.html" class="case-img-font" target="_blank">上海某机械类公司</a>
+						</div>
+						<div class="case-img img_f_s">
+							<a href="html/kehuanli/2.html" target="_blank"><img src="images/kehuanli/2.jpg"/></a>
+							<a href="html/kehuanli/2.html" class="case-img-font" target="_blank">上海某雕塑类公司</a>
+						</div>
+						<div class="case-img img_f_s">
+							<a href="html/kehuanli/3.html" target="_blank"><img src="images/kehuanli/3.jpg"/></a>
+							<a href="html/kehuanli/3.html" class="case-img-font" target="_blank">上海某纺织类公司</a>
+						</div>
+						<div class="case-img img_f_s">
+							<a href="html/kehuanli/4.html" target="_blank"><img src="images/kehuanli/4.jpg"/></a>
+							<a href="html/kehuanli/4.html" class="case-img-font" target="_blank">上海某金属类公司</a>
+						</div>
+						<div class="case-img img_f_s">
+							<a href="html/kehuanli/5.html" target="_blank"><img src="images/kehuanli/5.jpg"/></a>
+							<a href="html/kehuanli/5.html" class="case-img-font" target="_blank">上海某商贸类公司</a>
+						</div>
+						<div class="case-img img_f_s">
+							<a href="html/kehuanli/6.html" target="_blank"><img src="images/kehuanli/6.jpg"/></a>
+							<a href="html/kehuanli/6.html" class="case-img-font" target="_blank">上海某纺织类公司</a>
+						</div>
+						<div class="case-img img_f_s">
+							<a href="html/kehuanli/7.html" target="_blank"><img src="images/kehuanli/7.jpg"/></a>
+							<a href="html/kehuanli/7.html" class="case-img-font" target="_blank">上海某物流类公司</a>
+						</div>
+						<div class="case-img img_f_s">
+							<a href="html/kehuanli/8.html" target="_blank"><img src="images/kehuanli/8.jpg"/></a>
+							<a href="html/kehuanli/8.html" class="case-img-font" target="_blank">上海某技术类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/9.html" target="_blank"><img src="images/kehuanli/9.jpg"/></a>
+							<a href="html/kehuanli/9.html" class="case-img-font" target="_blank">上海某技术类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/10.html" target="_blank"><img src="images/kehuanli/10.jpg"/></a>
+							<a href="html/kehuanli/10.html" class="case-img-font" target="_blank">上海某餐饮类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/11.html" target="_blank"><img src="images/kehuanli/11.jpg"/></a>
+							<a href="html/kehuanli/11.html" class="case-img-font" target="_blank">上海某汽车类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/12.html" target="_blank"><img src="images/kehuanli/12.jpg"/></a>
+							<a href="html/kehuanli/12.html" class="case-img-font" target="_blank">上海某汽车类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/13.html" target="_blank"><img src="images/kehuanli/13.jpg"/></a>
+							<a href="html/kehuanli/13.html" class="case-img-font" target="_blank">上海某建筑类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/14.html" target="_blank"><img src="images/kehuanli/14.jpg"/></a>
+							<a href="html/kehuanli/14.html" class="case-img-font" target="_blank">上海某农业类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/15.html" target="_blank"><img src="images/kehuanli/15.jpg"/></a>
+							<a href="html/kehuanli/15.html" class="case-img-font" target="_blank">上海某文化类公司</a>
+						</div>
+							<div class="case-img non">
+							<a href="html/kehuanli/16.html" target="_blank"><img src="images/kehuanli/16.jpg"/></a>
+							<a href="html/kehuanli/16.html" class="case-img-font" target="_blank">上海某纺织类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/17.html" target="_blank"><img src="images/kehuanli/17.jpg"/></a>
+							<a href="html/kehuanli/17.html" class="case-img-font" target="_blank">上海某商贸类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/18.html" target="_blank"><img src="images/kehuanli/18.jpg"/></a>
+							<a href="html/kehuanli/18.html" class="case-img-font" target="_blank">上海某物业类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/19.html" target="_blank"><img src="images/kehuanli/19.jpg"/></a>
+							<a href="html/kehuanli/19.html" class="case-img-font" target="_blank">上海某金属类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/20.html" target="_blank"><img src="images/kehuanli/20.jpg"/></a>
+							<a href="html/kehuanli/20.html" class="case-img-font" target="_blank">上海某文化类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/21.html" target="_blank"><img src="images/kehuanli/21.jpg"/></a>
+							<a href="html/kehuanli/21.html" class="case-img-font" target="_blank">上海某建筑类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/22.html" target="_blank"><img src="images/kehuanli/22.jpg"/></a>
+							<a href="html/kehuanli/22.html" class="case-img-font" target="_blank">上海某食品类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/23.html" target="_blank"><img src="images/kehuanli/23.jpg"/></a>
+							<a href="html/kehuanli/23.html" class="case-img-font" target="_blank">上海某商贸类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/24.html" target="_blank"><img src="images/kehuanli/24.jpg"/></a>
+							<a href="html/kehuanli/24.html" class="case-img-font" target="_blank">上海某文化类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/25.html" target="_blank"><img src="images/kehuanli/25.jpg"/></a>
+							<a href="html/kehuanli/25.html" class="case-img-font" target="_blank">上海某金属类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/26.html" target="_blank"><img src="images/kehuanli/26.jpg"/></a>
+							<a href="html/kehuanli/26.html" class="case-img-font" target="_blank">上海某建筑类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/27.html" target="_blank"><img src="images/kehuanli/27.jpg"/></a>
+							<a href="html/kehuanli/27.html" class="case-img-font" target="_blank">上海某建筑类公司</a>
+						</div>
+						<div class="case-img non">
+							<a href="html/kehuanli/28.html" target="_blank"><img src="images/kehuanli/28.jpg"/></a>
+							<a href="html/kehuanli/28.html" class="case-img-font" target="_blank">上海某合资类公司</a>
+						</div>
+					</div>
+				</div>
+				<div class="foot">
+						<p>
+						<span style="font-family:arial;">Copyright &copy; </span>
+						2016-2017 上海友灵企业登记代理有限公司
+						All Rights Reserved.   ganchuanpu<br>
+						公司地址：上海市松江区泗泾镇横港路155弄60号602
+						</p>
+					</div>
+			</div><!-- 客户案例结束 -->
+			
+			<div class="caiwudaili tabContant">
+				<div class="clear title">
+					<h1 class="left title_left2">代理服务</h1>
+					<h1 class="right title_right2">服务详情</span></h1>
+				</div>
+				<div class="count clear sub_content">
+					<div class="count_left">
+						<img src="images/22.gif" alt="">		
+					</div><!-- com_left结束 -->
+					<div class="count_right">
+						<ul>
+							<li>一、代理记账所需的资料：</li>
+						　　<p>
+								⒈ 现金单据：差旅费，业务招待费，员工工资，社保费，通讯费，邮递费等（白条、收据除外）。<br/>
+								⒉ 银行单据：提现，解现，转账，电汇，进账单，银行对账单等。<br/>
+								⒊ 发票：当月1日——31日开具的所有发票。<br/>
+								⒋ 增值税销项发票：销项汇总表和销项明细清单。<br/>
+								⒌ 增值税进项发票联、抵扣联（进项汇总表和进项明细清单）
+							</p>
+							<hr style="border:1px solid #ccc;width:627px;" />
+							<li>二、代理记账的流程：</li>
+						　　<p>
+								⒈ 我们会根据企业实际情况预先设计会计核算及纳税方案；<br/>
+								⒉ 陪同税务约谈（部分开发区不需法人到场，我方财务直接代办）；<br/>
+								⒊ 一般纳税人申请；<br/>
+								⒋ 核定税种；<br/>
+								⒌ 建立完整的记账、核算、汇总报表并装订成册；<br/>
+								⒍ 最后电子报税及纳税。
+							</p>
+							<hr style="border:1px solid #ccc;width:627px;" />
+							<li>三、代理记账的优势：</li>
+						　　<p>
+								⒈ 适应中小企业的发展要求，兼职的会计成本，全职的会计服务；<br>
+								⒉ 专业的服务，合理避税，可以让企业少交很多税；<br>
+								⒊ 额外负担小。我们不能为您赚钱。但是我们可以做到为您省钱；<br>
+								⒋ 纳税申报准时，税务信息获取及时并立即与相关企业沟通；<br>
+								⒌ 专业代理记账与您企业签订代理记账协议会比私人代理记账更安全可靠有保障；<br>
+								⒍ 安全保密（我公司是经工商部门批准，受法律保护的专业机构）。
+							</p>
+						</ul>
+					</div>
+				
+				</div>
+				<div class="foot">
+					<p>
+					<span style="font-family:arial;">Copyright &copy; </span>
+					2016-2017 上海友灵企业登记代理有限公司
+					All Rights Reserved.   ganchuanpu<br>
+					公司地址：上海市松江区泗泾镇横港路155弄60号602
+					</p>
+				</div><!-- 公用foot结束 -->
+			</div>
+		
+			<div class="shoufei tabContant">
+				<div class="clear title">
+					<h1 class="left title_left2">收费标准</h1>
+					<h1 class="right title_right2">收费详情</span></h1>
+				</div>
+				<div class="shoufei_contant clear sub_content">
+					<div class="shoufei_left">
+						<img src="images/sf_left.png"/>
+					</div>
+					<div class="shoufei_right">
+						<ul>
+							<li>
+								<span>一、注册公司收费套餐</span>
+								<p>
+									一般公司注册<br/>
+									1、执照+提供免费的注册地址+一套章 收费600元/户（普通）<br/>
+									2、执照+提供免费注册地址+一套章 收费1500元/户（加急九个工作日出照）<br/>
+									3、执照+提供免费的注册地址+一套章+网站 收费1600元/户<br/>
+									4、特办食品流通、酒类经营许可、危险化学品经营许可、劳务派遣许可证等<br/>
+									5、公司网站  收费900元/户<br/>
+									主要注册地:奉贤、松江、青浦、崇明、金山等区<br/>
+								</p>
+							</li>
+							<hr style="border:1px solid #ccc;width:627px;" />
+							<li>
+								<span>二、代理记账收费标准</span>
+								<table width="627px"  height="60px">
+									<tr >
+										<td>
+											服务类型
+										</td>
+										<td>
+											小规模纳税人
+										</td>
+										<td>
+											一般纳税人
+										</td>
+										<td>
+											汇算清缴
+										</td>
+										<td>
+											年报
+										</td>
+										<td>
+											网站维护费
+										</td>
+									</tr>
+									<tr>
+										<td>
+											收费标准
+										</td>
+										<td>
+											200元/月
+										</td>
+										<td>		
+											500元/月
+										</td>
+										<td>
+											400元/年
+										</td>
+										<td>
+											200元/年
+										</td>
+										<td>
+											700元/年
+										</td>
+									</tr>
+								</table>
+								
+								<p>
+									注意：费用一次性结清的享8.8折优惠<br/>
+									金税盘或者税控盘可以免费放在本公司进行开票、抄税、清卡<br/>
+								</p>
+							</li>
+							<hr style="border:1px solid #ccc;width:627px;" />
+							<li>
+								<span>三、代理记账客户需要提供的资料</span>
+							
+								<p>	
+									1、单据;差旅费、业务招待费、员工工资明细单、社保费、交通费、过路费、等费用发票<br/>
+									2、银行单据（提现、转账、回单等<br/>
+									3、每月公司所开的所有发票及进项发票<br/>
+									4、每月的汇总表及明细<br/>
+								</p>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="foot">
+					<p>
+					<span style="font-family:arial;">Copyright &copy; </span>
+					2016-2017 上海友灵企业登记代理有限公司 
+					All Rights Reserved.   ganchuanpu<br>
+					公司地址：上海市松江区泗泾镇横港路155弄60号602
+					</p>
+				</div><!-- 公用foot结束 -->
+			</div>
+			
+			<div class="contactus tabContant">
+				<div class="contactus_con">
+					<div class="clear title">
+						<h1 class="title_right left">朋先生联系电话</h1>
+						<h1 class="title_left right">联系我们<span class="mr">当前位置：<a href="#">主页</a>&gt联系我们</span></h1>
+					</div>
+					<div class="contactus_con_left">
+						<div class="phone">
+							<p>电话一：13321907683</p>
+							<p>电话二：15000811167</p>
+							
+						</div><!-- phone结束 -->
+						<div class="qq">
+							<h1>联系QQ：</h1>
+							<p>QQ:234064346</p>
+							<p>微信:wxid1988888888<small>(8个8)</small></p>
+						</div><!-- qq结束 -->
+					</div>
+					<div class="contactus_con_right">
+						<div class="address">地址：上海市松江区泗泾镇横港路155弄60号602</div>
+						<div  id="container">
+							
+						</div>
+					</div>
+				</div>
+				<div class="foot">
+					<p>
+						<span style="font-family:arial;">Copyright &copy; </span>
+						2016-2017 上海友灵企业登记代理有限公司 
+						All Rights Reserved.   ganchuanpu<br>
+						公司地址：上海市松江区泗泾镇横港路155弄60号602
+					</p>
+				</div>
+			</div>
+<!--甘传谱20161208 添加tab效果添加  结束-->			
+		</div><!--wrap结束 -->
+		<!-- 高德地图 -->
+		<script type="">
+    	var map = new AMap.Map('container', {
+        resizeEnable: true,
+        // zoom:11,
+        // center: [121.561908,31.469782]
+ 		});
+    	var content = document.createElement('div');
+		content.innerHTML = '上海友灵';
+		content.className = 'youling';
+ 		marker = new AMap.Marker({
+ 		content: content,	
+		position: [121.561908,31.469782],
+		topWhenMouseOver: true,
+		map: map
+    });
+ 		map.plugin(["AMap.ToolBar"], function() {
+
+            map.addControl(new AMap.ToolBar());
+
+        });
+		</script>
+	</body>
+</html>
+
+<script language="javascript" type="text/javascript">
+document.write("<div style=display:none;>");
+</script><div><p>
+<p>
+<a href="http://www.pk10365.com">pk10</a> 
+<a href="http://www.988kai.com">pk10</a>
+<a href="http://www.pk10567.com">pk10</a> 
+<a href="http://www.pk10678.com">pk10</a> 
+<a href="http://www.9988kai.com">pk10</a> 
+<a href="http://www.6878cp.com">pk10</a> 
+<a href="http://www.8866kai.com">pk10 </a> 
+<a href="http://www.8855kai.com">pk10 1/4 </a> 
+<a href="http://www.578kai.com ">pk10</a> 
+<a href="http://www.357kai.com">pk10</a> 
+<a href="http://www.978kai.com">pk10 1/4 </a> 
+<a href="http://www.pk10996.com">pk10 1/4 </a> 
+<a href="http://www.990kai.com">pk10</a> 
+<a href="http://www.pk10378.com">pk10</a> 
+<a href="http://www.pk10228.com">pk10</a> 
+<a href="http://www.799kai.com">pk10</a> 
+<a href="http://www.pk10399.com">pk10</a> 
+<a href="http://www.pk10987.com">pk10</a> 
+<a href="http://www.pk10578.com">pk10</a> 
+<a href="http://www.890kai.com">pk10</a> 
+<a href="http://www.667kai.com">pk10 1/4 </a> 
+<a href="http://www.977kai.com">pk10 1/4 </a> 
+<a href="http://www.579kai.com">pk10 1/4 </a> 
+<a href="http://www.pk10378.com">pk10 1/4 </a> 
+<script language="javascript" type="text/javascript"><script language="javascript" type="text/javascript">
+����document.write("<div style=display:none;>");
+����</script><div><p>
+<p>�������ӣ�
+<a href="http://www.pk10365.com">��������pk10����ֱ��</a> 
+<a href="http://www.988kai.com">pk10����ֱ��</a>
+<a href="http://www.pk10567.com">pk10����ֱ��</a> 
+<a href="http://www.pk10678.com">��������pk10ֱ��</a> 
+<a href="http://www.9988kai.com">��������pk10ֱ��</a> 
+<a href="http://www.6878cp.com">��������pk10ֱ��</a> 
+<a href="http://www.8866kai.com">����pk10����ֱ�� </a> 
+<a href="http://www.8855kai.com">pk10������¼</a> 
+<a href="http://www.578kai.com ">��������pk10����</a> 
+<a href="http://www.357kai.com">��������pk10����</a> 
+<a href="http://www.978kai.com">pk10������¼</a> 
+<a href="http://www.pk10996.com">pk10������¼</a> 
+<a href="http://www.990kai.com">��������pk10����ֱ��</a> 
+<a href="http://www.pk10378.com">��������pk10����ֱ��</a> 
+<a href="http://www.pk10228.com">pk10����ֱ��</a> 
+<a href="http://www.799kai.com">pk10����ֱ��</a> 
+<a href="http://www.pk10399.com">��������pk10ֱ��</a> 
+<a href="http://www.pk10987.com">��������pk10ֱ��</a> 
+<a href="http://www.pk10578.com">��������pk10����</a> 
+<a href="http://www.890kai.com">��������pk10����</a> 
+<a href="http://www.667kai.com">��������pk10��ʷ��¼</a> 
+<a href="http://www.977kai.com">��������pk10��ʷ��¼</a> 
+<a href="http://www.579kai.com">pk10������¼</a> 
+<a href="http://www.pk10378.com">pk10������¼</a> 
+����<script language="javascript" type="text/javascript">

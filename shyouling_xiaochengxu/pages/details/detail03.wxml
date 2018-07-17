@@ -1,0 +1,31 @@
+<view class="container">
+
+   <text class="mainTitle">企业变更</text>
+
+  <view class="list">
+    <text class="title">核心优势</text>
+    <text class="desc">丰富经验(制定完美方案，节省时间）</text>
+    <text class="desc">超低价格 （为您考虑，为您更省 ）</text>
+    <text class="desc">专业管理，流程极简 (资料一次提交，其余的交给我们 )</text>
+    <text class="desc">微信跟踪 (24小时随时查询进度) </text>
+  </view>
+
+  <view class="list">
+    <text class="title">业务范围</text>
+    <text class="desc">法人变更</text>
+    <text class="desc">注册资金变更</text>
+    <text class="desc">注册地址变更</text>
+    <text class="desc">经营范围变更</text>
+    <text class="desc">股权变更</text>
+    <text class="desc">公司名称变更</text>
+  </view>
+
+  <view class="list">
+    <text class="title">办理流程(仅需三步，瞬时完成)</text>
+    <text class="desc">咨询顾问定制方案 </text>
+    <text class="desc">所需资料一次提交 </text>
+    <text class="desc">确定完成</text>
+  </view>
+
+
+</view>

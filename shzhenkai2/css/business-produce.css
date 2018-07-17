@@ -1,0 +1,64 @@
+/* 业务流程css */
+.business{
+	margin:5px auto;
+}
+.business_left
+{
+	width:320px;;
+	float:left;
+	border:1px solid #000000;
+}
+.business_left ul li
+{
+	list-style-type:none;
+	color:rgb(83,83,83);
+	font-size:15px;
+	line-height:55px;
+	border-bottom:1px dotted rgb(144,144,144);
+	padding-left:15px;
+}
+
+.stepname{
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+}
+
+
+/*右边*/
+.business_right
+{
+	width:665px;
+	float:left;
+	margin:0 0  0  10px;
+}
+
+.business_right ul {
+	list-style-type:none;
+	padding:10px;
+}
+.business_right ul  li{
+	margin-bottom:10px;
+	border-bottom:1px dotted rgb(144,144,144);
+}
+.business_right p {
+	text-indent:2em;
+}
+	
+.step_title{
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	font-weight:bold;
+	display:block;
+}	
+	
+.step-5 {
+	margin:10px;
+}
+
+
+
+
+
+

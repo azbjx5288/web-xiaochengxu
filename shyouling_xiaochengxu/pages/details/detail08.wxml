@@ -1,0 +1,34 @@
+<view class="container">
+
+   <text class="mainTitle">关于我们</text>
+
+  <view class="list">
+    <text class="title"> 公司简介</text>
+    <text class="desc"> 上海友灵企业登记代理有限公司是经工商正式注册的一家专业从事注册上海公司的代理机构，专注从事上海公司的注册、变更等代理事务。是上海地区可以独立完成：从注册、财务、办公室租赁一条龙服务的专业化公司。主营业务：上海公司注册、香港公司注册、财务代理服务；并为中小型公司、企业办事处在高档写字楼提供专业财务代理记账服务、服务式办公室、商务中心等服务。公司正式成立至今，已为上海超过200家企业成功注册在上海各行政区域。我公司与松江、金山、青浦、闵行、奉贤、浦东新区、崇明等地的开发区有良好的合作关系。公司拥有一支专业的服务队伍；专业资格的高级注册顾问、高级会计师、商务服务专业团队竭诚为您服务！
+    </text>
+
+    <text class="desc">我们相信只有专业才能创造卓越；只有细致、周到、高效的服务才能让我们有脱颖而出的机会；只有坚持不懈的努力才能不断的自我完善，自我超越。相信友灵！选择友灵！</text>
+  </view>
+
+  <view class="list">
+    <text class="title">公司主营业务:</text>
+    <text class="desc">A、公司注册、变更、转让、注销、增资验资；</text>
+    <text class="desc">B、各类企业纳税申报、财务代理、增值税申请、年检、验资、增资、审计；</text>
+    <text class="desc">C、国内国际商标设计、查询、注册、转让、变更；</text>
+    <text class="desc">D、协助企业办理税种核定，申请发票，认证发票,天猫商城入驻等</text>
+  </view>
+
+  <view class="list">
+    <text class="title">公司服务特点：</text>
+    <text class="desc">A、专业、诚信、高效的服务；</text>
+    <text class="desc">B、开发区指定招商代理机构；</text>
+    <text class="desc">C、优质、全方位的后续服务；</text>
+  </view>
+
+  <view class="list">
+    <text class="title">咨询服务热线电话周一至周日全天不休息！</text>
+    <text class="desc">7*24小时服务专线电话：13321907683  /  15000811167</text>
+    <text class="desc">联系人：朋先生</text>
+  </view>
+
+</view>

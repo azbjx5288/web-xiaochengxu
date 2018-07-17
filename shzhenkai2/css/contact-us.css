@@ -1,0 +1,49 @@
+/* 联系我们css */
+.contactus{
+	width:1000px;
+	margin:5px auto;
+}
+.contactus_con{
+	clear:both;
+}
+.contactus_con_left
+{
+	float:left;
+	width:300px;
+}
+
+.phone
+{
+	border:2px solid rgb(195,195,195);
+	margin-bottom:60px;
+	height:150px;
+}
+.qq
+{
+	border:2px solid rgb(195,195,195);
+	height:100px;
+}
+.phone p,  .qq p{
+	padding-left:20px;
+	padding-top:10px;
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+}
+.address
+{
+	font-size:16px;
+	margin-top:15px;
+	padding:20px;
+}
+
+.contactus_con_right  em{
+	float:right;
+	padding-bottom:20px;
+}
+.contactus_con_right
+{
+	float:left;
+	width:680px;
+	margin-left:20px;
+}

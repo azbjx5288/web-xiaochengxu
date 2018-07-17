@@ -1,0 +1,87 @@
+<view class="container">
+  <!-- <view class="userinfo" bindtap="profileTap">
+    <image class="userinfo-avatar" src="{{ userInfo.avatarUrl }}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{ userInfo.nickName }}</text>
+  </view> -->
+
+  <map id="map" 
+  longitude="121.26312000000003"
+  latitude="31.112336248616298" 
+  style="width: 100%; height: 200px;"/>
+  
+ <!-- 一键分享 -->
+  <view class="weui_cell" bindtap="copyTBL"> 
+      <view class="weui_cell_hd">
+        <image src="../../images/email.png"></image>
+      </view>
+      <view class="weui_cell_bd">
+        <view class="weui_cell_bd_p"> 234064346@qq.com  </view>
+      </view>
+      <image class="with_arrow" src="../../images/right.png"></image>
+  </view> 
+
+   <!-- 拨打手机 -->
+  <view class="weui_cell" bindtap="callMobilePhoneTap">
+    <view class="weui_cell_hd">
+      <image src="../../images/phone.png"></image>
+    </view>
+    <view class="weui_cell_bd">
+      <view class="weui_cell_bd_p">13321907683</view>
+    </view>
+    <!-- <view class="with_arrow"></view> -->
+     <image class="with_arrow" src="../../images/right.png"></image>
+  </view>
+
+   <!-- 拨打手机 -->
+  <view class="weui_cell" bindtap="callMobilePhoneTap2">
+    <view class="weui_cell_hd">
+      <image src="../../images/telephone.png"></image>
+    </view>
+    <view class="weui_cell_bd">
+      <view class="weui_cell_bd_p">15000811167</view>
+    </view>
+    <!-- <view class="with_arrow"></view> -->
+    <image class="with_arrow" src="../../images/right.png"></image>
+  </view>
+
+ <!-- 地址 -->
+  <view class="weui_cell" bindtap="Mapnavigation">
+    <view class="weui_cell_hd">
+      <image src="../../images/dizhi.png"></image>
+    </view>
+    <view class="weui_cell_bd">
+      <view class="weui_cell_bd_p"> 上海市松江区泗泾镇横港路155弄60号602 </view>
+    </view>
+    <!-- <view class="with_arrow"></view> -->
+     <image class="with_arrow" src="../../images/right.png"></image>
+  </view>
+  
+  <!-- 联系客服 -->
+  <view class="contact-btn">
+    <view class='contact-list'>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+      <contact-button size='30'></contact-button>
+    </view>
+    <image mode='widthFix' src="../../images/contact.png" class="user-ads-rImg"></image>
+    <text class='color-white'>联系在线客服</text>
+  </view>
+
+</view>

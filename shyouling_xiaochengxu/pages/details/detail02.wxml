@@ -1,0 +1,36 @@
+<view class="container">
+
+   <text class="mainTitle">代理记账服务内容</text>
+
+  <view class="list">
+    <text class="title">金牌服务</text>
+    <text class="desc">小规模代理记账(按年支付更多优惠)</text>
+    <text class="desc">一般纳税人代理记账(按年支付更多优惠)</text>
+    <text class="desc">旧账 + 乱账梳理(精细化财务数据管理)</text>
+     <text class="desc">其他审计服务(各种审计报表整理)</text>
+  </view>
+
+  <view class="list">
+    <text class="title">优选套餐</text>
+    <text class="desc">代账 + 商标注册(代理记账赠免费注册商标)</text>
+    <text class="desc">税控机托管服务(代开代购增值税发票)</text>
+    <text class="desc">竞标服务(竞标所需财务报表整理)</text>
+    <text class="desc">审计服务(专业整理审计报表)</text>
+  </view>
+
+  <view class="list">
+    <text class="title">递交材料</text>
+    <text class="desc">审核通过后，开始预约提交纸质材料时间，进行最后一次审核       </text>
+  </view>
+
+  <view class="list">
+    <text class="title">取照</text>
+    <text class="desc">小明按照通知书上的取照时间既可以到工商局领取营业执照       </text>
+  </view>
+
+  <view class="list">
+    <text class="title">刻章</text>
+    <text class="desc">找客户在那个公司刻好：企业公章、合同专用章、财务专用章、发票专用章、法人章便可完成       </text>
+  </view>
+
+</view>

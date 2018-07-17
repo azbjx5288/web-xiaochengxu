@@ -1,0 +1,56 @@
+/* 收费标准css */
+.shoufei{
+	margin:5px auto;
+}
+
+
+.shoufei_left{
+	float: left;
+	width: 300px;
+}
+.shoufei_left img{
+	margin-top:5px;
+}
+
+.shoufei_contant{
+	font-family:"微软雅黑";
+	padding-bottom:15px;
+	_height:670px;
+	min-height:670px;
+}
+.shoufei_right{
+	float: left;
+	width: 690px;
+	margin-left:10px;
+}
+.shoufei_right ul{
+	padding-left:25px;
+	list-style:none;
+}
+.shoufei p ,.shoufei table td{ 
+	font-size:14px;
+}
+.shoufei_right span{
+	font-weight:bold;
+	height:30px;
+	line-height:30px;
+}
+.shoufei h1{
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+}
+
+.shoufei table td{
+	border: 1px solid black;
+	margin:0;
+}
+.shoufei table {
+    border-collapse: collapse;
+	margin:15px 0;
+}
+
+.shoufei_right ul li {
+	margin:20px 0 0 0;
+	list-style-type:none;
+}

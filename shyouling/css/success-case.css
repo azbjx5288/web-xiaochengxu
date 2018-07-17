@@ -1,0 +1,70 @@
+/*成功案例css*/
+.success-case {
+	margin:5px auto;
+}
+.success-case-con_left{
+	float:left;
+	width:298px;
+	border:1px dotted rgb(144,144,144);	
+	background: #f4f4f4;
+	border-radius: 5px;
+}
+.success-case-con_left ul li
+{	
+	background:url(../images/09.jpg) no-repeat left top;
+	color:#666;
+	padding-left: 45px;
+	list-style:none;
+	margin:10px 34px;
+	border-radius:3px;
+	height:30px;
+	line-height:30px;
+	cursor: pointer;
+}
+.success-case-con_left ul li:hover{
+	background: rgb(30,60,114);
+	color: #ffffff;
+	width: 181px;
+}
+.success-case-con_right{
+	float:left;
+	width:680px;
+	height: 530px;	
+	margin-left:14px;
+	background: #f4f4f4;
+	border: 1px dotted rgb(144,144,144);
+	border-radius: 5px;
+}
+.case-img{
+	width:160px;
+	height:200px;
+	float:left;
+	padding:10px 5px  0 5px ;
+	display:none;
+}
+.case-img .case-img-font{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #A59999;
+	margin-left:10px;
+}
+.case-img img{
+	width:140px;
+	height:160px;
+	background: tan;
+	padding: 4px;
+	margin-top: 42px;
+	margin-left: 6px;
+}
+.case-img-show{
+	display:block;
+}
+/*]*/
+small{
+	color:rgb(214,68,68);
+	padding: 10px;
+}

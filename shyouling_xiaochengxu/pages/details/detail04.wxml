@@ -1,0 +1,27 @@
+<view class="container">
+
+   <text class="mainTitle">企业注销</text>
+
+  <view class="list">
+    <text class="title">公司不注销的危害 </text>
+    <text class="desc">无法担任企业高管</text>
+    <text class="desc">进入工商黑名单</text>
+    <text class="desc">个人征信留下污点</text>
+    <text class="desc">无法代理贷款</text>
+    <text class="desc">无法移民</text>
+  </view>
+
+  <view class="list">
+    <text class="title">企业注销流程</text>
+    <text class="desc">1.注销备案</text>
+    <text class="desc">2.登报公示</text>
+    <text class="desc">3.国税注销</text>
+    <text class="desc">4.终止社保</text>
+    <text class="desc">5.地税注销</text>
+    <text class="desc">6.工商注销</text>
+     <text class="desc">7.银行注销</text>
+  </view>
+
+
+
+</view>

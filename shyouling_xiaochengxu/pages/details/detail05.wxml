@@ -1,0 +1,38 @@
+<view class="container">
+
+   <text class="mainTitle">企税筹划</text>
+
+  <view class="list">
+    <text class="title">友灵公司注册的六大优势</text>
+    <text class="desc">五年企业所得税全免，免税期满，再减税五年</text>
+    <text class="desc">增值税、企业所得税及附加税等最高享地方提留50%的财政奖励</text>
+    <text class="desc">个人所得税地方留存部分最高返还90%</text>
+    <text class="desc">总部经济类企业最高享500万元办公用房补贴</text>
+    <text class="desc">高新技术产业投入设备成本，返还总投入1%财政补贴</text>
+    <text class="desc">信息科技类企业固定资产投资总额5000万以上，给予50元/㎡补贴</text>
+  </view>
+
+  <view class="list">
+    <text class="title">友灵鼓励投资的产业</text>
+    <text class="desc">1.医药</text>
+    <text class="desc">2.轻工纺织</text>
+    <text class="desc">3.环保节能</text>
+    <text class="desc">4.商务服务业</text>
+    <text class="desc">5.农林业</text>
+    <text class="desc">6.水利电力</text>
+    <text class="desc"> 7.有色金属</text>
+    <text class="desc"> 8.机械</text>
+    <text class="desc"> 9.信息产业</text>
+    <text class="desc"> 10.城市基础设施</text>
+    <text class="desc"> 11.演艺业</text>
+    <text class="desc">12.商贸服务业</text>
+    <text class="desc"> 13.科技服务业</text>
+    <text class="desc">14.旅游业</text>
+    <text class="desc">15.建筑</text>
+    <text class="desc">16.新能源</text>
+    <text class="desc">17.金融服务</text>
+  </view>
+
+
+
+</view>

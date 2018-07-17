@@ -1,0 +1,67 @@
+/* 联系我们css */
+.contactus{
+	width:1000px;
+	margin:5px auto;
+}
+.contactus_con{
+	clear:both;
+	height: 417px;
+	margin-top: 10px;
+}
+.contactus_con_left
+{
+	float:left;
+	width:286px;
+}
+
+.phone
+{
+	/*border:2px solid rgb(195,195,195);*/
+	margin-bottom:60px;
+	height:150px;
+}
+.qq
+{	display: block;
+	/*border:2px solid rgb(195,195,195);*/
+	height:100px;
+}
+.phone p,  .qq p{
+	padding-left:20px;
+	padding-top:10px;
+	height:40px;
+	line-height:40px;
+	font-size:16px;
+}
+.address
+{
+	font-size:16px;
+	padding:8px 0;
+}
+
+.contactus_con_right  em{
+	float:right;
+	padding-bottom:20px;
+}
+.contactus_con_right
+{
+	float:left;
+	width:680px;
+	margin-left:33px;
+}
+
+/*高德地图*/
+#container {
+	width:674px; 
+	height: 316px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+}
+.youling{
+	padding-top: 30px;
+    width: 54px;
+    color: red;
+    font-weight: bold;
+    background: url(../images/mark_b.png) no-repeat ;
+} 

@@ -1,0 +1,52 @@
+/*成功案例css*/
+.success-case {
+	margin:5px auto;
+}
+.success-case-con_left{
+	float:left;
+	width:300px;	
+}
+.success-case-con_left ul li
+{	
+	background-color:rgb(33,105,181);
+	color:white;
+	text-align:center;
+	list-style:none;
+	margin:10px 0;
+	border-radius:3px;
+	height:30px;
+	line-height:30px;
+}
+.success-case-con_right{
+	float:left;
+	width:680px;	
+	margin-left:20px;
+}
+.case-img{
+	width:160px;
+	height:200px;
+	float:left;
+	padding:10px 5px  0 5px ;
+	display:none;
+}
+.case-img .case-img-font{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	text-decoration: none;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #A59999;
+	margin-left:10px;
+}
+.case-img img{
+	width:140px;
+	height:160px;
+	border:1px solid #000;
+}
+.case-img-show{
+	display:block;
+}
+.case-img-go{
+	display:none;
+}

@@ -1,0 +1,108 @@
+/*网站首页css*/
+.shouye{
+	width:1000px;
+	margin:5px auto;
+}
+.ad
+{	
+	height:254px;
+}
+
+.shouye_contant
+{
+	height:260px;
+}
+.shouye_contant_left
+{
+	float:left;
+	width:650px;
+	border:2px dotted rgb(195,195,195);
+	border-bottom:2px dotted rgb(195,195,195);
+}
+.shouye_contant_left p{
+	text-indent:2em;
+}
+
+/*首页新闻中心*/
+.shouye_contant_right
+{
+	width:320px;
+	margin-left:15px;
+	float:right;
+	border:2px dotted rgb(195,195,195);
+	height:237px;	
+}
+.shouye_contant_right ul
+{
+	list-style:none;
+	font-size:20px;	
+	padding:15px;
+}
+
+.shouye_contant_right a:link,.shouye_contant_right a:active
+{
+	font-size:12px;
+	text-decoration:none; 
+}		
+
+.shouye_contant_right li
+{
+	height:30px;
+}
+.shouye_contant_right em{
+	height:16px;
+	background:url(../images/news.gif) no-repeat;
+	display:block;
+	text-align:center;
+	font-style:normal;
+	color:#333;
+	background-position:0 -16px;
+	float:left;
+}
+
+.single em
+{
+	background-position:0 0;
+}
+.double em
+{
+	background-position:0 -16px;
+}
+
+
+/*首页企业案例*/
+.lg_show
+{
+	_height:230px;
+	min-height:230px;
+	margin-top:10px;
+	clear: both;
+}
+.lg_show h1
+{
+	margin-bottom:10px;
+}
+.lg_show ul li
+{
+	float:left;
+	border:1px dotted rgb(195,195,195);
+	list-style:none;
+	
+} 
+.lg_show img
+{
+	margin:0 7px 0 7px;
+}
+
+
+/*首页企业案例 图片滚动开始*/
+.stepcarousel {
+	MARGIN: 0px auto; OVERFLOW: scroll; WIDTH: 981px; POSITION: relative; HEIGHT: 200px
+}
+.stepcarousel .belt {
+	LEFT: 0px; POSITION: absolute; TOP: 0px
+}
+.stepcarousel .panel {
+	FLOAT: left; MARGIN: 0px 38px 0px 38px; OVERFLOW: hidden; WIDTH: 150px
+}
+/*首页企业案例 图片滚动结束*/

@@ -1,0 +1,90 @@
+<view class="container">
+
+  <!-- 轮播图 -->
+  <swiper
+    class="binner"
+    autoplay="true"
+    interval="10000"
+    duration="1200"
+    indicator-dots="true">
+    <swiper-item>
+      <image src="../../images/page01_04.jpg" class="slide-image"></image>
+    </swiper-item>
+     <swiper-item>
+      <image src="../../images/page01_06.jpg" class="slide-image"></image>
+    </swiper-item>
+  </swiper>
+
+  <!-- 分类服务Icon -->
+  <view class="services">
+      <view class="wraper">
+       <view class="list" bindtap="gotoserver_01">
+          <image src="../../images/icon5.png"/>
+          <text class="desc">工商注册</text>
+       </view>
+       <view class="list" bindtap="gotoserver_02">
+          <image src="../../images/icon2.png"/>
+          <text class="desc">代理记账</text>
+       </view>
+       <view class="list" bindtap="gotoserver_03">
+          <image src="../../images/icon3.png"/>
+          <text class="desc">企业变更</text>
+       </view>
+       <view class="list" bindtap="gotoserver_04">
+          <image src="../../images/icon4.png"/>
+          <text class="desc">企业注销</text>
+       </view>
+       <view class="list" bindtap="gotoserver_05">
+          <image src="../../images/icon1.png"/>
+          <text class="desc">企税筹划</text>
+       </view>
+       <view class="list" bindtap="gotoserver_06">
+          <image src="../../images/icon6.png"/>
+          <text class="desc">个税筹划</text>
+       </view>
+       <view class="list" bindtap="gotoserver_07">
+          <image src="../../images/icon7.png"/>
+          <text class="desc">审计服务</text>
+       </view>
+       <view class="list contact-btn"  bindtap="gotoserver_08">
+          <image src="../../images/icon8.png"/>
+          <text class="desc">关于我们</text>
+       </view>
+     </view>
+  </view>
+
+
+  <view class="wrap">
+    <view class="recombox">
+      <text class="hot">真正懂财税人创办的专门机构</text>
+    </view>
+
+     <view class="cleanitem flex">
+       <view class="left" bindtap="gotoserver">
+         <view>
+           <text class="title">诚信老店</text>
+           <text class="desc">24小时上门服务</text>
+           <image src="../../images/page01_nr4.jpg"/>
+         </view>
+       </view>
+       <view class="right" bindtap="gotoserver">
+           <view class="flex box">
+             <view class="flex-auto">
+               <text class="title">公司注册</text>
+               <text class="desc">无隐形费用</text>
+             </view>
+             <!-- <image src="./../images/page01_nr2.jpg"/> -->
+           </view>
+           <view class="flex box">
+             <view class="flex-auto">
+               <text class="title">代理记账</text>
+               <text class="desc">1对1管家服务</text>
+             </view>
+             <!-- <image src="./../images/page01_nr3.jpg"/> -->
+           </view>
+       </view>
+     </view>
+  </view>
+
+
+</view>

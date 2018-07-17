@@ -1,0 +1,44 @@
+/* 财务代理css */
+.caiwudaili{
+	width:1000px;
+	margin:5px auto;
+}
+.count
+{
+	_height:640px;
+	min-height:620px;
+}
+.count_left{
+	width:300px;
+	float:left;
+}
+.count_left img
+{
+	width:300px;
+	margin:10px 0;
+	height:300px;
+}
+
+.count_right{
+	width:685px;
+	margin-left:10px;
+	float:left;
+	padding-bottom:15px;
+}
+.count_right ul
+{
+	padding-left:30px;
+	padding-top:10px;
+}
+.count_right ul li
+{
+	font-weight:bold;
+	height:30px;
+	line-height:30px;
+	margin-top:15px;
+	list-style-type:none;
+}
+.count_right p{
+	text-indent:0;
+	padding:0px;
+}

@@ -1,0 +1,22 @@
+<view class="container">
+
+   <text class="mainTitle">个税筹划</text>
+
+  <view class="list">
+    <text class="title">“谁”适合做个人税收筹划</text>
+    <text class="desc">工资模式 适用范围：企业高管、医生、律师</text>
+    <text class="desc">劳务报酬型 适用范围：自由设计师、网红、高净值人群</text>
+    <text class="desc">股权转让型 适用范围：公司股东、公司高管、o2o平台及服务者</text>
+  </view>
+
+  <view class="list">
+    <text class="title">"谁"适合做个人税收筹划-来源</text>
+    <text class="desc">佣金和劳务报酬</text>
+    <text class="desc">工资薪金</text>
+    <text class="desc">奖金提成</text>
+    <text class="desc">股东分红</text>
+    <text class="desc">年终奖</text>
+  </view>
+
+
+</view>

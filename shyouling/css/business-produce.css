@@ -1,0 +1,77 @@
+/* 业务流程css */
+.business{
+	margin:5px auto;
+}
+.business_left
+{
+	width:299px;
+	height: 1145px;
+	float:left;
+	/*border:1px solid #000000;*/
+	/*border:2px dotted rgb(195,195,195);*/
+	border-radius: 5px;
+	background: #f4f4f4;
+}
+.business_left ul .stepname
+{
+	list-style-type:none;
+	color:rgb(83,83,83);
+	font-size:15px;
+	line-height:55px;
+	border-bottom:1px dotted rgb(144,144,144);
+	margin: 0 35px;
+}
+.business_left ul .stepname:hover{
+	cursor: pointer;
+	background: rgba(0,0,0,.2);
+}
+.step_content{
+	position: relative;
+}
+.step_name{
+	height:50px;
+	line-height:50px;
+	font-size:16px;
+}
+
+
+/*右边*/
+.business_right
+{
+	width:688px;
+	float:left;
+	margin:0 0  0  10px;
+	/*border:2px dotted rgb(195,195,195);*/
+	background: #f4f4f4;
+	border-radius: 5px;
+}
+
+.business_right ul {
+	list-style-type:none;
+	padding:10px;
+}
+.business_right ul  li{
+	margin-bottom:10px;
+	border-bottom:1px dotted rgb(144,144,144);
+}
+.business_right p {
+	text-indent:2em;
+}
+	
+.step_title{
+	height:30px;
+	line-height:30px;
+	font-size:14px;
+	font-weight:bold;
+	display:block;
+}	
+	
+.step-5 {
+	margin:10px;
+}
+
+
+
+
+
+

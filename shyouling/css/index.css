@@ -1,0 +1,94 @@
+/*共有的*/
+*{
+	margin:0;
+	padding:0;
+	font-size:12px;
+	font-family:"微软雅黑";
+}
+.clear
+{
+	clear:both;
+}
+body
+{	
+	background-color:rgb(210,234,244);
+}
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+/**共有的标题样式*/
+ h1
+{
+	background-color:rgb(18,66,135);
+	padding-left:20px;
+	line-height:30px;
+	color:#fff;
+	border-radius:5px;
+	overflow:hidden;
+}
+ h1 .mr
+{
+	display:block;
+	float:right;
+	
+	margin-right:20px;
+}
+ h1 .mr a
+{
+	color:#fff;	
+	text-decoration:none;
+}
+p
+{
+line-height:30px;
+padding:0 10px 0 10px;	
+}
+
+
+
+.wrap
+{
+	width:1000px;
+	margin:0 auto;	
+}
+
+
+.foot
+{
+	height:340px;
+	margin:10px 0 10px 0;
+}
+
+
+.curr
+{
+	background-color:rgba(192,192,192,0.1);
+}
+
+
+
+
+/*甘传谱20161208 添加tab效果添加  开始*/	
+.tabContant
+{
+	display:none;
+	width:1000px;
+}
+.on{
+	display:block;
+}
+.nav li:hover{
+	background:blue;
+	border-radius: 5px;
+	height: 53px;
+}
+/*甘传谱20161208 添加tab效果添加  结束*/
+	
+
+
+
+
+

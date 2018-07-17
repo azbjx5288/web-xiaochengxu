@@ -1,0 +1,24 @@
+<view class="container">
+
+   <text class="mainTitle">审计服务</text>
+
+  <view class="list">
+    <text class="title">金牌服务</text>
+        <text class="desc">会计报表审计-全程跟踪审计企业资产负债表、损益表、现金流量表、会计报表附注及相关附表 </text>
+        <text class="desc">企业内部审计-慧算账专家审计组，进入企业全方位了解情况；并提出针对性的解决方案</text>
+        <text class="desc">企业清算审计-债权债务清偿，资产变现，破产清算，合同约定终止清算审计等</text>
+        <text class="desc">汇算清缴-第三方专业报告，降低税务局抽查风险，限时免费（代申报+做工商年检)</text>
+  </view>
+
+  <view class="list">
+    <text class="title">审计流程</text>
+    <text class="desc">初步沟通</text>
+    <text class="desc">签约书</text>
+    <text class="desc">根据业务下发资料清单</text>
+    <text class="desc">我方审计</text>
+    <text class="desc">整理底稿并补充</text>
+    <text class="desc">报告并确认支付</text>
+  </view>
+
+
+</view>
