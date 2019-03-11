@@ -39,3 +39,16 @@
   padding-bottom: 5px;
   text-indent: 2rem;
 }
+
+.company_image{
+  margin: 5rpx;
+  padding: 20rpx;
+  align-content: center;
+}
+
+.userinfo-avatar {
+ width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx; 
+     
+  }

@@ -31,4 +31,16 @@
     <text class="desc">联系人：朋先生</text>
   </view>
 
+<view class = "company_image">
+
+        <image  src="../../images/page01_11.jpg"class="userinfo-avatar"  bindtap="previewImg01" background-size="cover"mode="aspectFill"></image>
+        <image  src="../../images/page01_12.jpg" class="userinfo-avatar" bindtap="previewImg02"  background-size="cover"mode="aspectFill"></image>
+        <image  src="../../images/page01_13.jpg" class="userinfo-avatar"  bindtap="previewImg03"  background-size="cover"mode="aspectFill"></image>
+        <image  src="../../images/page01_14.jpg" class="userinfo-avatar" bindtap="previewImg04"  background-size="cover"mode="aspectFill"></image>
+        <image  src="../../images/page01_15.jpg" class="userinfo-avatar" bindtap="previewImg05"  background-size="cover"mode="aspectFill"></image>
+            <image  src="../../images/page01_16.jpg" class="userinfo-avatar" bindtap="previewImg06"  background-size="cover"mode="aspectFill"></image>
+        <image  src="../../images/page01_17.jpg" class="userinfo-avatar" bindtap="previewImg07"  background-size="cover"mode="aspectFill"></image>
+             <image  src="../../images/page01_18.jpg" class="userinfo-avatar" bindtap="previewImg08"  background-size="cover"mode="aspectFill"></image>
+</view>
+
 </view>
