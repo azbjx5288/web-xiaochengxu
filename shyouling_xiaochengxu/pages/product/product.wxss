@@ -4,7 +4,7 @@
 
 .binner{
   width: 100%;
-  height: 150px;
+  /* height: wr; */
   box-sizing: border-box;
 }
 

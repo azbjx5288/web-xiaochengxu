@@ -4,9 +4,10 @@
     <text class="userinfo-nickname">{{ userInfo.nickName }}</text>
   </view> -->
 
+
   <map id="map" 
-  longitude="121.26312000000003"
-  latitude="31.112336248616298" 
+  longitude="121.2852613281"
+  latitude="31.1168918718" 
   style="width: 100%; height: 200px;"/>
   
  <!-- 一键分享 -->
@@ -35,10 +36,23 @@
    <!-- 拨打手机 -->
   <view class="weui_cell" bindtap="callMobilePhoneTap2">
     <view class="weui_cell_hd">
-      <image src="../../images/telephone.png"></image>
+      <image src="../../images/phone.png"></image>
     </view>
     <view class="weui_cell_bd">
       <view class="weui_cell_bd_p">15000811167</view>
+    </view>
+    <!-- <view class="with_arrow"></view> -->
+    <image class="with_arrow" src="../../images/right.png"></image>
+  </view>
+
+  
+   <!-- 拨打手机 -->
+  <view class="weui_cell" bindtap="callMobilePhoneTap3">
+    <view class="weui_cell_hd">
+      <image src="../../images/telephone.png"></image>
+    </view>
+    <view class="weui_cell_bd">
+      <view class="weui_cell_bd_p">021-37780095</view>
     </view>
     <!-- <view class="with_arrow"></view> -->
     <image class="with_arrow" src="../../images/right.png"></image>
@@ -50,7 +64,7 @@
       <image src="../../images/dizhi.png"></image>
     </view>
     <view class="weui_cell_bd">
-      <view class="weui_cell_bd_p"> 上海市松江区泗泾镇横港路155弄60号602 </view>
+      <view class="weui_cell_bd_p"> 上海市松江区沪松公路2511弄泗泾五金城大厦1号楼401室 </view>
     </view>
     <!-- <view class="with_arrow"></view> -->
      <image class="with_arrow" src="../../images/right.png"></image>

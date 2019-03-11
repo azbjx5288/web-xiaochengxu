@@ -63,15 +63,28 @@ Page({
       }
     })
   },
-
+  //拨打手机
+  callMobilePhoneTap3: function () {
+    wx.makePhoneCall({
+      phoneNumber: '021-37780095',
+      leading: "拨打热线",
+      success: function () {
+        console.log("拨打电话成功！")
+      },
+      fail: function () {
+        console.log("拨打电话失败！")
+      }
+    })
+  },
   //地图导航  高德
+  //谷歌地图：31.1168918718,121.2852613281
   Mapnavigation: function (e) {
     wx.openLocation({
       type: 'wgs84',
-      latitude: 31.112336248616298,
-      longitude: 121.26312000000003,
+      latitude: 31.1168918718,
+      longitude: 121.2852613281,
       name: '上海友灵企业登记代理有限公司',
-      address: '上海市松江区泗泾镇横港路155弄60号602',
+      address: '上海市松江区沪松公路2511弄泗泾五金城大厦1号楼401室',
       success: function () {
         console.log("地图导航成功！")
       },

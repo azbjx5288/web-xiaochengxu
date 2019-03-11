@@ -1,7 +1,7 @@
 <view class="container">
   <image 
     class="binner"
-    src="../../images/page02.jpg"/>
+    src="../../images/page01_11.jpg" mode="heightFix"/>
 
   <view class="list">
     <text class="title">主营业务</text>
