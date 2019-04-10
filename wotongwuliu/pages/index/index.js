@@ -11,7 +11,7 @@ Page({
     company_product1:"国内整车直达  零担快运  仓储",
     address:"上海地址:上海青浦区(九星市场)嘉松中路4451弄18号",
     address2: "江苏地址:江苏南通海门扬子江路666号",
-    address3: "安徽地址:安徽省颍上县政务北路199号",
+    address3: "江苏地址:江苏南通市东方大道99号6号楼",
     time:"8:30-21:00",
     phoneNumber:"131-6700-0028",
     telphone:'131-6700-0038',
@@ -269,10 +269,10 @@ Page({
   Mapnavigation3: function (e) {
     wx.openLocation({
       type: 'wgs84',
-      latitude: 32.659263371076605,
-      longitude: 116.255219,
+      latitude: 31.818354,
+      longitude: 120.972367,
       name: '上海沃通物流有限公司',
-      address: '安徽省颍上县政务北路199号',
+      address: '江苏南通市东方大道99号6号楼',
       success: function () {
         console.log("地图导航成功！")
       },

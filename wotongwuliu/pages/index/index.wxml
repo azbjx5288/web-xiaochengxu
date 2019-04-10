@@ -26,17 +26,18 @@
   <image src="../../images/location.png" style="height: 20px;width:20px;"></image>
   <text type="default" style="font-size: 16px;margin-left:10px">{{address}}</text>
 </view>
-
-<view class="flex-wrp"   bindtap="Mapnavigation2" style="display: flex;align-items: center;flex-direction:row;height:30px;margin-left:15px;padding:5px;">
-  <image src="../../images/location.png" style="height: 20px;width:20px;"></image>
-  <text type="default" style="font-size: 16px;margin-left:10px">{{address2}}</text>
-</view>
-
-
 <view class="flex-wrp"   bindtap="Mapnavigation3" style="display: flex;align-items: center;flex-direction:row;height:30px;margin-left:15px;padding:5px;">
   <image src="../../images/location.png" style="height: 20px;width:20px;"></image>
   <text type="default" style="font-size: 16px;margin-left:10px">{{address3}}</text>
 </view>
+
+<!-- <view class="flex-wrp"   bindtap="Mapnavigation2" style="display: flex;align-items: center;flex-direction:row;height:30px;margin-left:15px;padding:5px;">
+  <image src="../../images/location.png" style="height: 20px;width:20px;"></image>
+  <text type="default" style="font-size: 16px;margin-left:10px">{{address2}}</text>
+</view> -->
+
+
+
 
 <view class="flex-wrp" style="display: flex;align-items: center;flex-direction:row;height:30px;margin-left:15px;padding:5px;">
   <image src="../../images/time.png" style="height: 20px;width:20px;;"></image>
